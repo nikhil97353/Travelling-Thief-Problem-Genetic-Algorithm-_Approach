@@ -1,4 +1,4 @@
-# Genetic-Algorithm-approach-to-TSP
+# Genetic-Algorithm-approach-to-Travelling Thief Problem
 Brief description
 The GECCO19 Traveling Thief Problem (TTP) combines two NP-hard problems - the Traveling Salesman Problem (TSP) and the Knapsack Problem (KNP). TSP focuses on finding the shortest distance for a traveling salesman to visit each city and return to the original city, while KNP focuses on maximizing the value of the thief's backpack while minimizing the backpack weight below the backpack weight capacity. This project will combine the two problems Optimize in order to obtain an optimal solution.
 How to install the project
