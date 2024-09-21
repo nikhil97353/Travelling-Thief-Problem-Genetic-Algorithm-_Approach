@@ -40,34 +40,7 @@ ea.generate_initial(size_p=100)
 
 5.Run block (The following is a demo only, the output of the code you are running may be different)
 ea.optimize(generations=100, tournament_size=30, crossover='OX')
-Get Result:
-Generation:  1
-Generation:  2
-Generation:  3
-Generation:  4
-Generation:  5
-Generation:  6
-Generation:  7
-Generation:  8
-Generation:  9
-Generation:  10
-Generation:  11
-Generation:  12
-Generation:  13
-Generation:  14
-Generation:  15
-Generation:  16
-Generation:  17
-Generation:  18
- Generation:  19
- Generation:  20
- Generation:  21
- Generation:  22
- Generation:  23
- Generation:  24
- Generation:  25
- ...
- Generation:  100
+
 6.Run block
 ea.show()
 
