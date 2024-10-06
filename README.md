@@ -10,8 +10,8 @@ Dependencies: Ensure Python (with required libraries - matplotlib) is installed.
    git clone https://github.com/yourusername/TTP-Optimization.git
    cd TTP-Optimization
 2. Run the provided Python script:
-
-evolutionary_algorithm.py
+   ```bash
+   evolutionary_algorithm.py
 
 
  
