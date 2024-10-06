@@ -12,8 +12,6 @@ Dependencies: Ensure Python (with required libraries - matplotlib) is installed.
 2. Run the provided Python script:
    ```bash
    evolutionary_algorithm.py
-
-
  
 Conclusion:
 The project utilized a Genetic Algorithm to solve the TSP with additional constraints. Several iterations and improvements were made to enhance the algorithm's performance in handling constraints while maximizing profits. The final implementation offers a trade-off between exploration and exploitation for an optimal solution.
