@@ -4,14 +4,18 @@ The GECCO19 Traveling Thief Problem (TTP) combines two NP-hard problems - the Tr
 How to install the project
 Dependencies: Ensure Python (with required libraries - matplotlib) is installed.
 
-How to use the project
-Code Execution:
-Run the provided Python script (python your_script.py).
-Adjust parameters (population size, mutation rate, etc.) as needed.
-Expected Output:
-Visualization of city coordinates.
-Console output showing each generation's best fitness.
-Final best fitness and the corresponding optimal route visualization.
+## How to Use the Project
+
+### Code Execution:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/TTP-Optimization.git
+   cd TTP-Optimization
+2. Run the provided Python script:
+bash
+Copy code
+evolutionary_algorithm.py
+
 
  
 Conclusion:
