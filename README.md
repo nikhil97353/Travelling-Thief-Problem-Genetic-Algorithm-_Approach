@@ -12,38 +12,6 @@ Expected Output:
 Visualization of city coordinates.
 Console output showing each generation's best fitness.
 Final best fitness and the corresponding optimal route visualization.
-tests
-Open main.ipynb
-1.	Run block : Import packages and libraries
-2.	Go to Main Function and do following changes
-change the 'test_name' to the dataset you want to solve
-ea = MYTEAM(test_name='a280-n279')
-change the 'size p' as the size of population following the the 'LIMI_SOLUTION' in evolutionary_algorithm.py
-ea.generate_initial(size_p=100)
-LIMIT_SOLUTION = {
-    'a280-n279': 100,
-    'a280-n1395': 100,
-    'a280-n2790': 100,
-    'fnl4461-n4460': 50,
-    'fnl4461-n22300': 50,
-    'fnl4461-n44600': 50,
-    'pla33810-n33809': 20,
-    'pla33810-n169045': 20,
-    'pla33810-n338090': 20,
-}
-change the 'generations' to how many generations you want to run
-ea.optimize(generations=100, tournament_size=30, crossover='OX')
-
-Run block
-ea = MYTEAM(test_name='a280-n279')
-ea.generate_initial(size_p=100)
-
-5.Run block (The following is a demo only, the output of the code you are running may be different)
-ea.optimize(generations=100, tournament_size=30, crossover='OX')
-
-6.Run block
-ea.show()
-
 
  
 Conclusion:
